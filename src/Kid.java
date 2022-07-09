@@ -5,7 +5,7 @@ public class Kid extends Pupil implements Speaking {
 
     @Override
     public void speak() {
-        System.out.println("Я капитан команды " + schoolNumber + " школы, мое имя: " + name);
+        System.out.println("I am the team captain of " + schoolNumber + " school, my name is: " + name);
     }
 
     public Kid(String name) {
